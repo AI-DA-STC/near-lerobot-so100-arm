@@ -1,0 +1,20 @@
+<mujocoinclude model="">
+    <!-- Add free joint to make the cup movable -->
+    <freejoint name="cup_free"/>
+    
+    <!-- Add inertial properties for the cup -->
+    <inertial pos="0 0 0.02" mass="0.2" diaginertia="0.002 0.002 0.001"/>
+    <geom name="cup_visual" mesh="cup" rgba="1 0.75 0.8 1.0" />
+    <geom name="cup_contact0" mesh="contact0" class="object_col"/>
+    <geom name="cup_contact1" mesh="contact1" class="object_col"/>
+    <geom name="cup_contact2" mesh="contact2" class="object_col"/>
+    <geom name="cup_contact3" mesh="contact3" class="object_col"/>
+    <geom name="cup_contact4" mesh="contact4" class="object_col"/>
+    <geom name="cup_contact5" mesh="contact5" class="object_col"/>
+    <geom name="cup_contact6" mesh="contact6" class="object_col"/>
+    <geom name="cup_contact7" mesh="contact7" class="object_col"/>
+    <geom name="cup_contact8" mesh="contact8" class="object_col"/>
+    <geom name="cup_contact9" mesh="contact9" class="object_col"/>
+    <geom name="cup_contact10" mesh="contact10" class="object_col"/>
+    <geom name="cup_contact11" mesh="contact11" class="object_col"/>
+</mujocoinclude>
